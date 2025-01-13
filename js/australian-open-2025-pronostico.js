@@ -39,7 +39,7 @@ const predictions = [
 	},
 	{
 		name: "Lombo",
-		img: "https://www.tennisworlditalia.com/imgb/40869/la-rivista-gq-descrive-federer-come-il-migliore-di-sempre-e-partono-le-critiche.webp",
+		img: "https://c7.alamy.com/compit/gbwtye/tennis-wimbledon-championships-mens-singles-final-bjorn-borg-v-john-mcenroe-bjorn-borg-in-azione-gbwtye.jpg",
 		winner: "Carlos Alcaraz",
 		semi1: "Jannik Sinner",
 		semi2: "Alexander Zverev",
