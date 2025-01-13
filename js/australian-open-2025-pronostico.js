@@ -63,7 +63,7 @@ const predictions = [
 	},
 	{
 		name: "Cuzzo",
-		img: "https://www.mistertennis.com/media/src/rafa_nadal_bcd01.jpg",
+		img: "immagini/macroe.png",
 		winner: "Jannik Sinner",
 		semi1: "Taylor Fritz",
 		semi2: "Carlos Alcaraz",
