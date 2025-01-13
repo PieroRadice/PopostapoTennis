@@ -15,7 +15,7 @@ const players = {
 const predictions = [
 	{
 		name: "Pier",
-		img: "https://www.basicpress.com/media/media/125/125090_024.JPG",
+		img: "https://www.tennisworlditalia.com/imgb/40869/la-rivista-gq-descrive-federer-come-il-migliore-di-sempre-e-partono-le-critiche.webp",
 		winner: "Jannik Sinner",
 		semi1: "Carlos Alcaraz",
 		semi2: "Daniil Medvedev",
