@@ -31,7 +31,7 @@ const predictions = [
 	},
 	{
 		name: "Piero",
-		img: "images/agassi.png",
+		img: "immagini/agassi.png",
 		winner: "Taylor Fritz",
 		semi1: "Jannik Sinner",
 		semi2: "Jack Draper",
@@ -55,7 +55,7 @@ const predictions = [
 	},
 	{
 		name: "Rob",
-		img: "images/wavrinka.png",
+		img: "immagini/wavrinka.png",
 		winner: "Alexander Zverev",
 		semi1: "Carlos Alcaraz",
 		semi2: "Jannik Sinner",
