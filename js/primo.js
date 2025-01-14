@@ -1,4 +1,4 @@
-export const primo = [
+export const predictions = [
   {
     name: "Pier",
     img: "https://www.tennisworlditalia.com/imgb/40869/la-rivista-gq-descrive-federer-come-il-migliore-di-sempre-e-partono-le-critiche.webp",
@@ -37,7 +37,7 @@ export const primo = [
     winner: "Jannik Sinner",
     semi1: "Taylor Fritz",
     semi2: "Carlos Alcaraz",
-    semi3: "Andrey Rublev",
+    //semi3: "Andrey Rublev",
   },
   {
     name: "Rob",
@@ -45,7 +45,7 @@ export const primo = [
     winner: "Alexander Zverev",
     semi1: "Carlos Alcaraz",
     semi2: "Jannik Sinner",
-    semi3: "Andrey Rublev",
+    //semi3: "Andrey Rublev",
   },
   {
     name: "Cuzzo",
@@ -61,6 +61,6 @@ export const primo = [
     winner: "Jannik Sinner",
     semi1: "Carlos Alcaraz",
     semi2: "Daniil Medvedev",
-    semi3: "Andrey Rublev",
+    //semi3: "Andrey Rublev",
   },
 ];

@@ -1,4 +1,4 @@
-/* Hamburger menu styles */
+/* Stile generale per l'header */
 header {
   position: relative;
   background-color: #333;
@@ -30,6 +30,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 10;
+  transition: all 0.3s ease-in-out; /* Aggiunge una transizione per un effetto fluido */
 }
 
 .menu ul {
@@ -58,16 +59,16 @@ header {
 }
 
 /* Visualizza il menu quando attivo */
-.menu.active {
-  display: flex;
+.menu.open {
+  display: flex; /* Mostra il menu */
 }
 
 /* Modifiche per schermi più grandi */
 @media (min-width: 768px) {
   .menu {
-    display: flex;
+    display: flex; /* Mostra il menu sempre per schermi grandi */
     flex-direction: row; /* Disposizione in orizzontale */
-    position: static;
+    position: static; /* Posizione statica per schermi grandi */
     background-color: transparent;
   }
   .menu ul {

@@ -4,27 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google" content="notranslate" />
     <title>PRONOSTICI AUSTRALIAN OPEN 2025</title>
     <link rel="stylesheet" href="css/australian-open-2025-pronostico.css" />
     <link rel="stylesheet" href="css/hamburger.css" />
   </head>
   <body>
+    <h1>PRONOSTICI AUSTRALIAN OPEN 2025</h1>
     <header>
       <div class="hamburger-menu">
         <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         <nav class="menu">
           <ul>
-            <li><a href="#option1">Opzione 1</a></li>
-            <li><a href="#option2">Opzione 2</a></li>
-            <li><a href="#option3">Opzione 3</a></li>
+            <li><a href="#" data-source="js/predictions.js">Pronostici</a></li>
+            <li><a href="#" data-source="js/primo.js">Primo turno</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <h1>PRONOSTICI AUSTRALIAN OPEN 2025</h1>
     <div class="column-container" id="columns"></div>
-    <script src="js/australian-open-2025-pronostico.js"></script>
+    <script type="module">
+      // Importa la funzione per costruire la tabella
+      import { creaColonne } from "./js/australian-open-2025-pronostico.js";
+
+      // Seleziona gli elementi del menu e associa eventi click
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".menu");
+      const menuLinks = document.querySelectorAll(".menu a");
+
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", async (event) => {
+          event.preventDefault(); // Evita il comportamento predefinito del link
+
+          // Ottieni il file di dati specificato nell'attributo data-source
+          const dataSource = event.target.dataset.source;
+
+          try {
+            // Importa dinamicamente i dati
+            const { predictions: newData } = await import(`./${dataSource}`);
+
+            // Chiama la funzione creaColonne con i nuovi dati
+            const columnContainer = document.getElementById("columns");
+            columnContainer.innerHTML = ""; // Resetta le colonne esistenti
+            creaColonne(newData);
+
+            // Chiudi il menu
+            menu.classList.remove("open");
+          } catch (error) {
+            console.error("Errore durante l'importazione dei dati:", error);
+          }
+        });
+      });
+
+      // Toggle del menu
+      menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("open");
+      });
+
+      // Simula il clic sull'ultima opzione del menu al caricamento della pagina
+      window.addEventListener("DOMContentLoaded", () => {
+        const lastMenuLink = menuLinks[menuLinks.length - 1]; // Seleziona l'ultima opzione del menu
+        if (lastMenuLink) {
+          lastMenuLink.click(); // Simula il clic sull'ultima opzione
+        }
+      });
+    </script>
   </body>
 </html>
