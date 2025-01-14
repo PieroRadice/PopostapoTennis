@@ -1,5 +1,13 @@
 import { players } from "./players.js";
 import { predictions } from "./predictions.js";
+import { primo } from "./primo.js";
+// Hamburger menu toggle
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', () => {
+  menu.classList.toggle('active');
+});
 
 const columnContainer = document.getElementById("columns");
 
