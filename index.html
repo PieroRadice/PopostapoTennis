@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="google" content="notranslate" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
     <title>PRONOSTICI AUSTRALIAN OPEN 2025</title>
-    <link rel="stylesheet" href="css/australian-open-2025-pronostico.css" />
-    <link rel="stylesheet" href="css/hamburger.css" />
+    <link
+      rel="stylesheet"
+      href="css/australian-open-2025-pronostico.css?v=1.0"
+    />
+    <link rel="stylesheet" href="css/hamburger.css?v=1.0" />
   </head>
   <body>
     <h1>PRONOSTICI AUSTRALIAN OPEN 2025</h1>
@@ -31,6 +41,7 @@
       const menuToggle = document.querySelector(".menu-toggle");
       const menu = document.querySelector(".menu");
       const menuLinks = document.querySelectorAll(".menu a");
+      const titleElement = document.querySelector("h1"); // Seleziona l'h1
 
       menuLinks.forEach((link) => {
         link.addEventListener("click", async (event) => {
@@ -47,6 +58,10 @@
             const columnContainer = document.getElementById("columns");
             columnContainer.innerHTML = ""; // Resetta le colonne esistenti
             creaColonne(newData);
+
+            // Modifica il contenuto dell'h1 con il testo dell'opzione selezionata
+            const selectedOptionText = event.target.textContent; // Testo dell'opzione
+            titleElement.textContent = `${selectedOptionText.toUpperCase()} AUSTRALIAN OPEN 2025`;
 
             // Chiudi il menu
             menu.classList.remove("open");
