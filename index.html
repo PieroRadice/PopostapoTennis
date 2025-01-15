@@ -27,7 +27,8 @@
         <nav class="menu">
           <ul>
             <li><a href="#" data-source="js/predictions.js">Pronostici</a></li>
-            <li><a href="#" data-source="js/primo.js">Primo turno</a></li>
+            <li><a href="#" data-source="1">Primo turno</a></li>
+            <li><a href="#" data-source="2">Secondo turno</a></li>
           </ul>
         </nav>
       </div>
@@ -35,7 +36,7 @@
     <div class="column-container" id="columns"></div>
     <script type="module">
       // Importa la funzione per costruire la tabella
-      import { creaColonne } from "./js/australian-open-2025-pronostico.js";
+      import { creaColonne } from "./js/turni.js";
 
       // Seleziona gli elementi del menu e associa eventi click
       const menuToggle = document.querySelector(".menu-toggle");
@@ -51,13 +52,10 @@
           const dataSource = event.target.dataset.source;
 
           try {
-            // Importa dinamicamente i dati
-            const { predictions: newData } = await import(`./${dataSource}`);
-
             // Chiama la funzione creaColonne con i nuovi dati
             const columnContainer = document.getElementById("columns");
             columnContainer.innerHTML = ""; // Resetta le colonne esistenti
-            creaColonne(newData);
+            creaColonne(dataSource);
 
             // Modifica il contenuto dell'h1 con il testo dell'opzione selezionata
             const selectedOptionText = event.target.textContent; // Testo dell'opzione
