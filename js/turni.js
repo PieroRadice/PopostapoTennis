@@ -7,13 +7,13 @@ const playersTurni = {
   },
   "Alexander Zverev": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/z355",
   },
   "Carlos Alcaraz": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/a0e2",
   },
@@ -31,7 +31,7 @@ const playersTurni = {
   },
   "Novak Djokovic": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/d643",
   },
@@ -43,7 +43,7 @@ const playersTurni = {
   },
   "Jack Draper": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/D0CO",
   },
