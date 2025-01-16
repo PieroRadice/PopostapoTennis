@@ -19,7 +19,7 @@ const playersTurni = {
   },
   "Taylor Fritz": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/fb98",
   },
@@ -49,7 +49,7 @@ const playersTurni = {
   },
   "Lorenzo Musetti": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/m0ej",
   },
