@@ -123,7 +123,6 @@ const predictions = [
 ];
 
 export function risultatoTurno(playerNome, turnoChar) {
-  console.log(playerNome);
   const turno = parseInt(turnoChar);
   if (playersTurni[playerNome].turno > turno) return "ok";
   if (playersTurni[playerNome].turno < turno) return "uscito";
