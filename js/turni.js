@@ -1,7 +1,7 @@
 const playersTurni = {
   "Jannik Sinner": {
     turno: 2,
-    giocato: 0,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/s0ag",
   },
