@@ -42,7 +42,7 @@ const playersTurni = {
     img: "https://www.atptour.com/-/media/alias/player-headshot/re44",
   },
   "Jack Draper": {
-    turno: 3,
+    turno: 4,
     giocato: 0,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/D0CO",
