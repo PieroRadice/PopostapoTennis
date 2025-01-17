@@ -30,7 +30,7 @@ const playersTurni = {
     img: "https://www.atptour.com/-/media/alias/player-headshot/mm58",
   },
   "Novak Djokovic": {
-    turno: 3,
+    turno: 4,
     giocato: 0,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/d643",
