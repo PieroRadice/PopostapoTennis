@@ -19,8 +19,8 @@ const playersTurni = {
   },
   "Taylor Fritz": {
     turno: 3,
-    giocato: 0,
-    vinto: 1,
+    giocato: 1,
+    vinto: 0,
     img: "https://www.atptour.com/-/media/alias/player-headshot/fb98",
   },
   "Daniil Medvedev": {
@@ -49,8 +49,8 @@ const playersTurni = {
   },
   "Lorenzo Musetti": {
     turno: 3,
-    giocato: 0,
-    vinto: 1,
+    giocato: 1,
+    vinto: 0,
     img: "https://www.atptour.com/-/media/alias/player-headshot/m0ej",
   },
 };
