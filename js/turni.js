@@ -1,18 +1,18 @@
 const playersTurni = {
   "Jannik Sinner": {
-    turno: 4,
+    turno: 5,
     giocato: 0,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/s0ag",
   },
   "Alexander Zverev": {
-    turno: 4,
+    turno: 5,
     giocato: 0,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/z355",
   },
   "Carlos Alcaraz": {
-    turno: 4,
+    turno: 5,
     giocato: 0,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/a0e2",
@@ -30,7 +30,7 @@ const playersTurni = {
     img: "https://www.atptour.com/-/media/alias/player-headshot/mm58",
   },
   "Novak Djokovic": {
-    turno: 4,
+    turno: 5,
     giocato: 0,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/d643",
@@ -43,8 +43,8 @@ const playersTurni = {
   },
   "Jack Draper": {
     turno: 4,
-    giocato: 0,
-    vinto: 1,
+    giocato: 1,
+    vinto: 0,
     img: "https://www.atptour.com/-/media/alias/player-headshot/D0CO",
   },
   "Lorenzo Musetti": {
