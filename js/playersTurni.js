@@ -1,14 +1,14 @@
 export const playersTurni = {
   "Jannik Sinner": {
-    turno: 6,
-    giocato: 0,
+    turno: 7,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/s0ag",
   },
   "Alexander Zverev": {
-    turno: 6,
-    giocato: 0,
-    vinto: 1,
+    turno: 8,
+    giocato: 1,
+    vinto: 0,
     img: "https://www.atptour.com/-/media/alias/player-headshot/z355",
   },
   "Carlos Alcaraz": {
@@ -30,8 +30,8 @@ export const playersTurni = {
     img: "https://www.atptour.com/-/media/alias/player-headshot/mm58",
   },
   "Novak Djokovic": {
-    turno: 6,
-    giocato: 0,
+    turno: 7,
+    giocato: 1,
     vinto: 1,
     img: "https://www.atptour.com/-/media/alias/player-headshot/d643",
   },
