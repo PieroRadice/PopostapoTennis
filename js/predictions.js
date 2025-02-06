@@ -38,7 +38,7 @@ export const predictions = [
     semi1: "Jannik Sinner",
     semi2: "Alexander Zverev",
     semi3: "Novak Djokovic",
-  },0
+  },
   {
     name: "Pam",
     img: "https://static2.amica.it/wp-content/uploads/2023/07/8456559_large.jpg?v=1278015_1688727790",
