@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tornei ATP</title>
+    <link rel="stylesheet" href="css/australian-open-2025-pronostico.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hamburger-menu">
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <h1>Tornei ATP</h1>
+    <div class="tournament-grid" id="tournament-grid">
+      <!-- I bottoni dei tornei verranno generati qui tramite JavaScript -->
+    </div>
+
+    <script>
+      // Funzione per caricare i dati dei tornei dal file JSON
+      async function loadTournaments() {
+        try {
+          // Effettua una richiesta per ottenere il file JSON
+          const response = await fetch("json/tornei.json");
+          if (!response.ok) {
+            throw new Error("Errore nel caricamento dei dati dei tornei");
+          }
+
+          // Converte la risposta in JSON
+          const tournaments = await response.json();
+
+          // Ottieni il contenitore della griglia
+          const tournamentGrid = document.getElementById("tournament-grid");
+
+          // Genera i bottoni per ogni torneo
+          tournaments.forEach((tournament) => {
+            const button = document.createElement("a");
+            button.href = tournament.href;
+            button.className = `tournament-button ${tournament.status}`;
+            button.style.backgroundImage = `url('${tournament.image}')`;
+            button.textContent = tournament.name;
+
+            // Aggiungi il bottone alla griglia
+            tournamentGrid.appendChild(button);
+          });
+        } catch (error) {
+          console.error("Si è verificato un errore:", error);
+        }
+      }
+
+      // Carica i tornei quando la pagina è pronta
+      document.addEventListener("DOMContentLoaded", loadTournaments);
+    </script>
+  </body>
+</html>

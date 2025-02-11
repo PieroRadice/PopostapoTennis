@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Australian Open",
+    "href": "html/australianOpen.html",
+    "category": "Grand Slam",
+    "location": "Melbourne",
+    "country": "Australia",
+    "surface": "Cemento",
+    "prizeMoney": "$61,600,000",
+    "dates": "12 - 26 gennaio 2025",
+    "status": "completed"
+  },
+  {
+    "name": "Rotterdam",
+    "category": "ATP 500",
+    "location": "Rotterdam",
+    "country": "Olanda",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "12-18 febbraio 2025",
+    "status": "completed"
+  },
+  {
+    "name": "Qatar Open ATP",
+    "category": "ATP 500",
+    "location": "Doha",
+    "country": "Qatar",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "17-22 febbraio 2025",
+    "status": "in-progress"
+  },
+  {
+    "name": "Indian Wells Masters",
+    "category": "ATP Masters 1000",
+    "location": "Indian Wells",
+    "country": "Stati Uniti",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "3 - 16 marzo 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Miami Open",
+    "category": "ATP Masters 1000",
+    "location": "Miami",
+    "country": "Stati Uniti",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "17 - 30 marzo 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Monte-Carlo Masters",
+    "category": "ATP Masters 1000",
+    "location": "Monte Carlo",
+    "country": "Monaco",
+    "surface": "Terra rossa",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "7 - 13 aprile 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Barcelona Open Banc Sabadell",
+    "category": "ATP 500",
+    "location": "Barcellona",
+    "country": "Spagna",
+    "surface": "Terra rossa",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "14 - 20 aprile 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Madrid Open",
+    "category": "ATP Masters 1000",
+    "location": "Madrid",
+    "country": "Spagna",
+    "surface": "Terra rossa",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "28 aprile - 11 maggio 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Italian Open (Roma)",
+    "category": "ATP Masters 1000",
+    "location": "Roma",
+    "country": "Italia",
+    "surface": "Terra rossa",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "12 - 25 maggio 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Roland Garros (French Open)",
+    "category": "Grand Slam",
+    "location": "Parigi",
+    "country": "Francia",
+    "surface": "Terra rossa",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "25 maggio - 8 giugno 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Halle Open",
+    "category": "ATP 500",
+    "location": "Halle",
+    "country": "Germania",
+    "surface": "Erba",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "16 - 22 giugno 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Queen's Club Championships",
+    "category": "ATP 500",
+    "location": "Londra",
+    "country": "Regno Unito",
+    "surface": "Erba",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "16 - 22 giugno 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Wimbledon",
+    "category": "Grand Slam",
+    "location": "Londra",
+    "country": "Regno Unito",
+    "surface": "Erba",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "30 giugno - 13 luglio 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Canadian Open",
+    "category": "ATP Masters 1000",
+    "location": "Toronto/Montreal",
+    "country": "Canada",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "4 - 17 agosto 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Cincinnati Masters",
+    "category": "ATP Masters 1000",
+    "location": "Cincinnati",
+    "country": "Stati Uniti",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "18 - 31 agosto 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "US Open",
+    "category": "Grand Slam",
+    "location": "New York",
+    "country": "Stati Uniti",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "25 agosto - 7 settembre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Shanghai Masters",
+    "category": "ATP Masters 1000",
+    "location": "Shanghai",
+    "country": "Cina",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "1 - 12 ottobre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "China Open",
+    "category": "ATP 500",
+    "location": "Pechino",
+    "country": "Cina",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "30 settembre - 6 ottobre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Rakuten Japan Open Tennis Championships",
+    "category": "ATP 500",
+    "location": "Tokyo",
+    "country": "Giappone",
+    "surface": "Cemento",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "7 - 13 ottobre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Paris Masters",
+    "category": "ATP Masters 1000",
+    "location": "Parigi",
+    "country": "Francia",
+    "surface": "Cemento indoor",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "27 ottobre - 2 novembre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Erste Bank Open",
+    "category": "ATP 500",
+    "location": "Vienna",
+    "country": "Austria",
+    "surface": "Cemento indoor",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "21 - 27 ottobre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "Swiss Indoors Basel",
+    "category": "ATP 500",
+    "location": "Basilea",
+    "country": "Svizzera",
+    "surface": "Cemento indoor",
+    "prizeMoney": "Informazione non disponibile",
+    "dates": "21 - 27 ottobre 2025",
+    "status": "upcoming"
+  },
+  {
+    "name": "ATP Finals",
+    "category": "ATP Finals",
+    "location": "Torino",
+    "country": "Italia",
+    "surface": "Cemento indoor",
+    "prizeMoney": "$15,250,000",
+    "dates": "9 - 16 novembre 2025",
+    "status": "upcoming"
+  }
+]
