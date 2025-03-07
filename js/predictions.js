@@ -18,10 +18,10 @@ export const predictions = [
   {
     name: "Pam",
     img: "https://static2.amica.it/wp-content/uploads/2023/07/8456559_large.jpg?v=1278015_1688727790",
-    winner: "Carlos Alcaraz",
-    semi1: "Jannik Sinner",
-    semi2: "Alexander Zverev",
-    semi3: "Daniil Medvedev",
+    winner: "Alexander Zverev",
+    semi1: "Carlos Alcaraz",
+    semi2: "Taylor Fritz",
+    semi3: "Alex de Minaur",
   },
   {
     name: "Cuzzo",
@@ -71,7 +71,6 @@ export const predictions = [
     semi2: "Casper Ruud",
     semi3: "Grigor Dimitrov",
   },
-
   {
     name: "Nata",
     img: "immagini/serena_williams.jpg",
@@ -80,5 +79,4 @@ export const predictions = [
     semi2: "",
     semi3: "",
   },
-
 ];

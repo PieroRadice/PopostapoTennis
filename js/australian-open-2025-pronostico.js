@@ -38,12 +38,12 @@ export function creaColonne(predictions) {
       totali.push(totale);
       cell.innerHTML = `
       <div class="title">${title}</div>
-      <div class="title">points: ${points}</div>
+      <div class="title">punti: ${points}</div>
       <div class="player">
         <img src="${players[playerName].img}" alt="${playerName}" />
         ${playerName}
       </div>
-      <div class="title">ranking: ${players[playerName].ranking}</div>
+      <div class="title">classifica: ${players[playerName].ranking}</div>
     `;
       return cell;
     };
@@ -51,11 +51,11 @@ export function creaColonne(predictions) {
     if (prediction.winner)
       content.appendChild(createCell("VINCITORE", prediction.winner, true));
     if (prediction.semi1)
-      content.appendChild(createCell("ALTRO SEMIFINALISTA", prediction.semi1));
+      content.appendChild(createCell("SEMIFINALISTA", prediction.semi1));
     if (prediction.semi2)
-      content.appendChild(createCell("ALTRO SEMIFINALISTA", prediction.semi2));
+      content.appendChild(createCell("SEMIFINALISTA", prediction.semi2));
     if (prediction.semi3)
-      content.appendChild(createCell("ALTRO SEMIFINALISTA", prediction.semi3));
+      content.appendChild(createCell("SEMIFINALISTA", prediction.semi3));
     const totalPoints = document.createElement("div");
     totalPoints.className = "title";
     totalPoints.innerHTML = `Total points: ${totale}`;
