@@ -12,7 +12,8 @@ export const players = {
     semiPoints: 20,
   },
   "Carlos Alcaraz": {
-    img: "https://www.atptour.com/-/media/alias/player-headshot/a0e2",
+    //img: "https://www.atptour.com/-/media/alias/player-headshot/a0e2",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png",
     ranking: 3,
     winnerPoints: 80,
     semiPoints: 20,

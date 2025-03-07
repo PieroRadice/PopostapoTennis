@@ -16,6 +16,14 @@ export const predictions = [
     semi3: "Lorenzo Sonego",
   },
   {
+    name: "Nata",
+    img: "immagini/serena_williams.jpg",
+    winner: "Carlos Alcaraz",
+    semi1: "Alexander Zverev",
+    semi2: "Taylor Fritz",
+    semi3: "Daniil Medvedev",
+  },
+  {
     name: "Pam",
     img: "https://static2.amica.it/wp-content/uploads/2023/07/8456559_large.jpg?v=1278015_1688727790",
     winner: "Alexander Zverev",
@@ -70,13 +78,5 @@ export const predictions = [
     semi1: "Ugo Humbert",
     semi2: "Casper Ruud",
     semi3: "Grigor Dimitrov",
-  },
-  {
-    name: "Nata",
-    img: "immagini/serena_williams.jpg",
-    winner: "",
-    semi1: "",
-    semi2: "",
-    semi3: "",
   },
 ];
