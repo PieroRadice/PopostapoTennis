@@ -58,7 +58,7 @@ export function creaColonne(predictions) {
       content.appendChild(createCell("SEMIFINALISTA", prediction.semi3));
     const totalPoints = document.createElement("div");
     totalPoints.className = "title";
-    totalPoints.innerHTML = `Total points: ${totale}`;
+    totalPoints.innerHTML = `Punti in gioco: ${totale}`;
     headerCell.appendChild(totalPoints);
     column.appendChild(content);
     columnContainer.appendChild(column);
