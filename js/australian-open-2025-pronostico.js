@@ -10,12 +10,13 @@ menuToggle.addEventListener("click", () => {
 });
 
 export function creaColonne(predictions) {
+  const totali = [];
   const columnContainer = document.getElementById("columns");
 
   predictions.forEach((prediction) => {
+    let totale = 0;
     const column = document.createElement("div");
     column.className = "column";
-
     const headerCell = document.createElement("div");
     headerCell.className = "header-cell";
     headerCell.innerHTML = `
@@ -30,12 +31,19 @@ export function creaColonne(predictions) {
     const createCell = (title, playerName, isWinner = false) => {
       const cell = document.createElement("div");
       cell.className = isWinner ? "winner" : "cell";
+      const points = isWinner
+        ? players[playerName].winnerPoints
+        : players[playerName].semiPoints;
+      totale += points;
+      totali.push(totale);
       cell.innerHTML = `
       <div class="title">${title}</div>
+      <div class="title">points: ${points}</div>
       <div class="player">
-        <img src="${players[playerName]}" alt="${playerName}" />
+        <img src="${players[playerName].img}" alt="${playerName}" />
         ${playerName}
       </div>
+      <div class="title">ranking: ${players[playerName].ranking}</div>
     `;
       return cell;
     };
@@ -48,7 +56,10 @@ export function creaColonne(predictions) {
       content.appendChild(createCell("ALTRO SEMIFINALISTA", prediction.semi2));
     if (prediction.semi3)
       content.appendChild(createCell("ALTRO SEMIFINALISTA", prediction.semi3));
-
+    const totalPoints = document.createElement("div");
+    totalPoints.className = "title";
+    totalPoints.innerHTML = `Total points: ${totale}`;
+    headerCell.appendChild(totalPoints);
     column.appendChild(content);
     columnContainer.appendChild(column);
   });
