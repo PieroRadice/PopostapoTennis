@@ -25,7 +25,8 @@
         <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         <nav class="menu">
           <ul>
-            <li><a href="#" data-source="js/predictions.js">Pronostici</a></li>
+            <li><a href="#" data-source="0">Pronostici</a></li>
+            <li><a href="#" data-source="1">Primo turno</a></li>
           </ul>
         </nav>
       </div>
@@ -34,8 +35,8 @@
     <div class="column-container" id="columns"></div>
     <script type="module">
       // Importa la funzione per costruire la tabella
-      import { creaColonne } from "./js/australian-open-2025-pronostico.js";
-
+      import { creaColonne } from "./js/funzioni_turni.js";
+      import { predictions } from "./js/predictionsTurni.js";
       // Seleziona gli elementi del menu e associa eventi click
       const menuToggle = document.querySelector(".menu-toggle");
       const menu = document.querySelector(".menu");
@@ -47,20 +48,19 @@
           event.preventDefault(); // Evita il comportamento predefinito del link
 
           // Ottieni il file di dati specificato nell'attributo data-source
-          const dataSource = event.target.dataset.source;
 
           try {
             // Importa dinamicamente i dati
-            const { predictions: newData } = await import(`./${dataSource}`);
+            // const { predictions: newData } = await import(`./${dataSource}`);
 
             // Chiama la funzione creaColonne con i nuovi dati
             const columnContainer = document.getElementById("columns");
             columnContainer.innerHTML = ""; // Resetta le colonne esistenti
-            creaColonne(newData);
+            creaColonne("1", predictions);
 
             // Modifica il contenuto dell'h1 con il testo dell'opzione selezionata
             const selectedOptionText = event.target.textContent; // Testo dell'opzione
-            //titleElement.textContent = `${selectedOptionText.toUpperCase()} INDIAN WELLS 2025`;
+            titleElement.textContent = `${selectedOptionText.toUpperCase()} INDIAN WELLS 2025`;
 
             // Chiudi il menu
             menu.classList.remove("open");

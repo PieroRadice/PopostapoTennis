@@ -29,6 +29,7 @@ export function creaColonne(predictions) {
     content.className = "content";
 
     const createCell = (title, playerName, isWinner = false) => {
+      
       const cell = document.createElement("div");
       cell.className = isWinner ? "winner" : "cell";
       const points = isWinner
